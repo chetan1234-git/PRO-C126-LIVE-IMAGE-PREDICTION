@@ -44,7 +44,7 @@ export default class PickImage extends React.Component {
       type: type,
     };
     data.append("alphabet", fileToUpload);
-    fetch("https://8902722742ef.ngrok.io/predict-alphabet", {
+    fetch("https://ae76-49-207-220-79.in.ngrok.io/predict-alphabet", {
       method: "POST",
       body: data,
       headers: {
